@@ -10,4 +10,9 @@ public class JenkinsTestController {
 	public String mainTest() {
 		return "Hello Jenkins Test";
 	}
+
+	@GetMapping("/test")
+	public String test(){
+		return "Hello Jenkins Maven Test!!!";
+	}
 }
