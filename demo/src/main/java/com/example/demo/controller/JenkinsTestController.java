@@ -16,6 +16,6 @@ public class JenkinsTestController {
 	}
 	@GetMapping("/home")
 	public String tset2(){
-		return "webhook home test5";
+		return "webhook home test6";
 	}
 }
