@@ -12,6 +12,6 @@ public class JenkinsTestController {
 	}
 	@GetMapping("/test")
 	public String test(){
-		return "Hello Jenkins Maven Test!!!!!?";
+		return "webhook test10";
 	}
 }
