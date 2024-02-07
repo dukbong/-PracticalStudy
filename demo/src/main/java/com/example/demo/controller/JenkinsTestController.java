@@ -12,7 +12,7 @@ public class JenkinsTestController {
 	}
 	@GetMapping("/test")
 	public String test(){
-		return "TEST2 #49";
+		return "TEST2 #50";
 	}
 	@GetMapping("/home")
 	public String tset2(){
