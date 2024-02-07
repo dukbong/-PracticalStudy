@@ -8,11 +8,11 @@ public class JenkinsTestController {
 
 	@GetMapping("/")
 	public String mainTest() {
-		return "Hello Jenkins Test!";
+		return "Hello Jenkins Test!!";
 	}
 	@GetMapping("/test")
 	public String test(){
-		return "TEST2 #47";
+		return "TEST2 #48";
 	}
 	@GetMapping("/home")
 	public String tset2(){
